@@ -36,7 +36,4 @@ def insert_branch_data(self):
                 BRO.save()
     return HttpResponse("data insereted successfully") 
 
-def delete_branch_data(self):
-    Branch.objects.all().delete()
-    return HttpResponse("Branch data deleted successfully")
 

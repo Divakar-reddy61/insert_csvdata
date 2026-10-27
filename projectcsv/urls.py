@@ -22,5 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('insert_data/',insert_data,name='insert_data'),
     path('insert_branch_data/',insert_branch_data,name='insert_branch_data'),
-    path('delete_branch_data/',delete_branch_data,name='delete_branch_data')
+    #path('delete_branch_data/',delete_branch_data,name='delete_branch_data')
 ]

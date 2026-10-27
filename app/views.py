@@ -35,5 +35,7 @@ def insert_branch_data(self):
                 BRO=Branch(bank_name=BO[0],ifsc=ifsc,branch=branch,address=address,contact=contact,city=city,district=district,state=state)
                 BRO.save()
     return HttpResponse("data insereted successfully") 
-
+def delete_branch_data(self):
+    Branch.objects.all().delete()
+    return HttpResponse("Branch data deleted successfully")
 
